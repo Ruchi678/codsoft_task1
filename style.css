@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: rgba(0, 0, 0, 0.847);
+}
+.cont{
+    max-width: 80vw;
+
+}
+header{
+    background-color: rgba(0, 255, 255, 0.925);
+    height:12vh;
+}
+.height{
+    display: flex;
+    justify-content: center;
+}
+.flex{
+    display: flex;
+    justify-content: space-around;
+    height:80px;
+    
+}
+.left{
+    display: flex;
+     align-items: center;
+    font-weight: 900;
+    color:rgb(128, 0, 128);
+    font-size: 1.4rem;
+}
+
+ 
+.right ul{
+     display: flex;
+     margin: 30px 0;
+    
+    
+}
+.right ul li{
+    list-style: none;
+    margin: 0 10px;
+    cursor: pointer;
+   }
+   .right ul li:hover{
+    color: whitesmoke;
+    font-size: 1.02rem;
+    
+   }
+   
+  
+
+.lmain{
+    width:50%;
+    margin:20px 20px;
+    padding:10px;
+    }
+    .lmain img{
+        height:45px;
+        padding: 0 160px;
+    }
+
+.lmain p{
+    padding: 10px 0;
+
+}
+.lmain h1{
+    color:rgba(128, 0, 128, 0.896);
+    font-size: 2rem;
+}
+.lmain p{
+    font-size: 1.4rem;
+}
+.lmain .pc{
+    margin: 35px 0;
+}
+
+.lmain .bb{
+    display: flex;
+    justify-content: space-evenly;
+}
+.lmain .cu{
+    padding: 15px;
+    font-size: 15px;
+}
+.lmain .vm{
+    padding: 15px;
+     font-size: 15px;
+}
+.lmain .cu:hover{
+    font-size:15.5px ;
+}
+.lmain .vm:hover{
+    font-size:15.5px ;
+}
+#sale-timer{
+    color: rgb(128, 0, 128);;
+    font-size: 1.35rem;
+    font-weight: 500;
+    font-style:inherit;
+}
+.gym{
+    font-size: 35px;
+}
+.first{
+    background-color: cyan;
+}
+.third{
+     background-color: cyan;
+     display: flex;
+     justify-content: space-around;
+     color:black;
+     font-size: small;
+     padding:10px;
+}

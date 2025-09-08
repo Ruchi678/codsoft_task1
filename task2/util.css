@@ -1,0 +1,85 @@
+.height{
+    height: 100vh;
+}
+
+.auto{
+    margin-left: auto;
+    margin-right: auto;
+}
+.right button{
+    padding: 4px 12px;
+    border:2px solid black;
+    border-radius: 8px;
+    color: white;
+    background-color:rgba(128, 0, 128, 0.881) ;
+    cursor: pointer;
+}
+.rmain img{
+    height:50vh;
+    border-radius: 50%;
+    border:10px solid white;
+    margin: 20px 0;
+    
+}
+.maindiv{
+    display: flex;
+    justify-content: space-around;
+}
+.second{
+    
+     background-color: aqua;
+     padding:8px 0;
+}
+.second h1{
+    display:flex;
+    justify-content: center;
+   
+    color: rgba(128, 0, 128, 0.881);
+}
+.second p{
+    padding: 0 80px;
+}
+.second .box{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 20px;
+}
+.box{
+    margin:10px
+}
+.box .b{
+    border:2px solid black;
+    border-radius: 10%;
+    padding: 40px 60px;
+    
+    
+}
+.box .box2{
+     border:2px solid black;
+    border-radius: 10%;
+    padding: 40px ;
+    
+}
+.box .box3{
+     border:2px solid black;
+    border-radius: 10%;
+    padding: 40px;
+    
+}
+button{
+    padding: 8px;
+    background-color: purple;
+    color:white;
+    cursor: pointer;
+    border:2px solid black;
+    border-radius: 10px;
+    font-size: 12px;
+    margin: 8px 0;
+}
+button:hover{
+    font-size: 12.5px;
+}
+li{
+    list-style: none;
+}
+
